@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"], input[type="password"], input[type="range"], textarea, select {
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+    padding: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 250px;
+}
+
+a {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 30px;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
